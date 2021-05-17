@@ -3,8 +3,7 @@
 class PricingStrategies:
 
     def __init__(self):
-        self.var=0
-
+        pass
     def buyandreduce(self,bucket, product, N, M):
 
         """
@@ -81,18 +80,19 @@ class PricingStrategies:
         # New Bucket after strategy applied
         newbucket = []
         # Check whether gift is included in bucket.
-        giftind = -1
+        giftind = []
 
         # Iterate and check giftindex
         for i in range(len(bucket)):
             if bucket[i][0] == gift:
-                giftind = i
+                giftind.append(i)
 
         # Make gift price to 0, if not add new gift to new bucket(trivial)
         for i in range(len(bucket)):
             if bucket[i][0] == product:
-                if giftind != -1:
-                    bucket[giftind][1] = 0
+                if len(giftind) != 0:
+                    for j in giftind:
+                        bucket[j][1] = 0
                 else:
                     newbucket.append([gift, 0])
             newbucket.append([bucket[i][0], bucket[i][1]])
