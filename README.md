@@ -21,7 +21,7 @@ Project is composed of 4 files, each of them has following responsibilities.
 
  As the owner is assumed to be indecisible with the product prices and strategies, I have offered a flexibility of choosing the type of product and number of N,M at the above. Owner of the shop can design the new strategy just by changing the number of the input parameter.
  
- ![image](https://github.com/hyossid/OSL_TechAssignment/issues/1)
+ ![image](https://user-images.githubusercontent.com/34973707/118536207-04d8a000-b77e-11eb-9caa-c1d7e675ad12.png)
  
  For example, at the above functions, simply changing the parameter can help designing the new strategies. 
  Each detailed content of parameter is written at the pricingstrategies.py function
