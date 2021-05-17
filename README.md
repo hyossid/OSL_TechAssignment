@@ -11,3 +11,12 @@ Project is composed of 4 files, each of them has following responsibilities.
  - test.py : UnitTest for the core functions and testcases for whole application.
  
  
+## Pricing Strategy 
+
+ According to the question, 3 main pricing strategies were released :
+ 
+ 1. Buy N Pay M (N>M) 
+ 2. Buy more than N, get product in discounted price 
+ 3. Buy A, get B for Free 
+
+ As the owner is assumed to be indecisible with the product prices and strategies, I have offered a flexibility of choosing the type of product and number of N,M at the above. Owner of the shop can design the new strategy just by changing the number of the input parameter.
