@@ -1,4 +1,4 @@
-# OSL_TechAssignment
+# HMS_Practice
 
 
 ## Architecture of This Project
