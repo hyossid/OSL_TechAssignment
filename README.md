@@ -1,4 +1,4 @@
-# HMS_Practice
+# reservation Manager
 
 
 ## Architecture of This Project
